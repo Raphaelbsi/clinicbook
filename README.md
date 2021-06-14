@@ -6,9 +6,9 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
-
+    ruby:2.5.1
 * System dependencies
-
+    Nodejs, Yarn, Imagemagick
 * Configuration
 
 * Database creation
@@ -22,4 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
 # clinicbook
