@@ -1,3 +1,22 @@
 Rails.application.routes.draw do
+  get 'appointments/show'
+  get 'appointments/index'
+  get 'appointments/create'
+  get 'appointments/update'
+  get 'appointments/destroy'
+  get 'appointments/raffle'
+  get 'patients/show'
+  get 'patients/index'
+  get 'patients/create'
+  get 'patients/update'
+  get 'patients/destroy'
+  get 'patients/raffle'
+  get 'doctors/show'
+  get 'doctors/index'
+  get 'doctors/create'
+  get 'doctors/update'
+  get 'doctors/destroy'
+  get 'doctors/raffle'
+  get 'pages/home'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
